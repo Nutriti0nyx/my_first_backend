@@ -22,6 +22,7 @@ char * decTo(long valeur, int base){
         str[i] = str[j];
         str[j] = t;
     }
+    free(str);
     return str;
 }
 
